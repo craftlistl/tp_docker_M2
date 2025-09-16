@@ -9,3 +9,5 @@ avoir un problème puisque l'extension pour mongo n'est pas installée
 ajouté un fichier avec toutes les extensions python pour les installer dans le dockerfile
 
 faire le copy du requirement.txt dans le conteneur avant de lancer le run
+
+ne plus essayer de récuperer des données de la bd et juste faire un ping de la DB
