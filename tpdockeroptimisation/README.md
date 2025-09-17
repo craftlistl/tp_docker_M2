@@ -43,6 +43,16 @@ taille image docker 1.19GB
 
 La version de node doit etre fixe
 
+node:18 
+
+real    1m27.640s
+user    0m0.168s
+sys     0m0.432s
+
+les commandes du run on pris du temps
+
+taille image docker 1.17GB
+
 
 On peu le faire tourner en production plutot qu'en developement pour optimiser le build
 
