@@ -3,6 +3,6 @@ WORKDIR /app
 COPY . /app
 EXPOSE 3000
 ENV NODE_ENV=production
-RUN npm install && npm run build
+RUN npm install && npm run build && addgroup -S app && adduser -S app -G app
 USER root
 CMD ["node", "server.js"]

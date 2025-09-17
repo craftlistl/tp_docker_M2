@@ -29,7 +29,15 @@ sys     0m0.463s
 
 taille image docker 1.19GB
 
-Le user en root c'est dangereux
+Le user en root c'est dangereux:
+
+ajout d'un user app
+
+real    0m14.653s
+user    0m0.260s
+sys     0m0.353s
+
+taille image docker 138.5MB
 
 Les ports expose servent a quoi
 
