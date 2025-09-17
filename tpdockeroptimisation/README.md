@@ -21,6 +21,14 @@ taille image docker 1.19GB
 
 Il y a 3 RUN dans le dockerfile on pourrais en faire 1 seul
 
+faire une seule ligne run : 
+
+real    0m51.446s
+user    0m0.153s
+sys     0m0.463s
+
+taille image docker 1.19GB
+
 Le user en root c'est dangereux
 
 Les ports expose servent a quoi
