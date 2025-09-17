@@ -79,6 +79,12 @@ taille image docker 1.19GB
 
 Dépendances inutiles dans de package.json
 
+remove mongo db : 
+real    0m20.372s
+user    0m0.151s
+sys     0m0.244s
+
+taille image docker 130.27MB
 
 
 Il faut analyser cette ligne : RUN apt-get update && apt-get install -y build-essential ca-certificates locales && echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
