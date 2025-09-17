@@ -68,3 +68,10 @@ Dépendances inutiles dans de package.json
 
 Il faut analyser cette ligne : RUN apt-get update && apt-get install -y build-essential ca-certificates locales && echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
 On devrait pouvoir enlever des choses inutiles
+
+Suppression de ce run:
+real    0m21.489s
+user    0m0.306s
+sys     0m0.276s
+
+taille image : 1.1GB
