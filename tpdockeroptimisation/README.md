@@ -48,6 +48,13 @@ node:18
 real    1m27.640s
 user    0m0.168s
 sys     0m0.432s
+changement vers alpine : 
+
+real    0m12.253s
+user    0m0.183s
+sys     0m0.338s
+
+taille image docker 138.5MB
 
 les commandes du run on pris du temps
 
