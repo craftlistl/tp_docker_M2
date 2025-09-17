@@ -39,6 +39,11 @@ La version de node doit etre fixe
 
 On peu le faire tourner en production plutot qu'en developement pour optimiser le build
 
+real    0m50.840s
+user    0m0.152s
+sys     0m0.417s
+
+taille image docker 1.19GB
 
 Dépendances inutiles dans de package.json
 
