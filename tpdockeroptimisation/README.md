@@ -33,6 +33,13 @@ Le user en root c'est dangereux
 
 Les ports expose servent a quoi
 
+j'ai enlever les ports sauf 3000:
+
+real    0m54.861s
+user    0m0.199s
+sys     0m0.448s
+
+taille image docker 1.19GB
 
 La version de node doit etre fixe
 
