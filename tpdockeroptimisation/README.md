@@ -1,4 +1,22 @@
+J'ai lancé le build : 
+time docker build . -t "latestNode"
+
+ce qui ma donné : 
+real    0m50.393s
+user    0m0.166s
+sys     0m0.385s
+
+taille image docker 1.2GB
+
 Le node modules est insérer dans le zip, dans le dockerfile il fait un copy du node module puis un npm install
+
+enlever le copy nodemodules :
+build
+real    0m50.782s
+user    0m0.229s
+sys     0m0.339s
+
+taille image docker 1.19GB
 
 
 Il y a 3 RUN dans le dockerfile on pourrais en faire 1 seul
